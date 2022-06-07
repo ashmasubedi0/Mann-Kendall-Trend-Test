@@ -7,8 +7,8 @@ Trend analysis of climate variables such as temperature and precipitation, which
 **How the Test Works**
 This test works by using a hypotheses test. The hypotheses for the test are: 
 
-H0: It is a null hypothesis which means there is no trend present in the data.
-H1: It is an alternative hypothesis which means there is a trend present in the data. Here, the trend can be a positive trend as well as a negative trend. 
+* H0: It is a null hypothesis which means there is no trend present in the data.
+* H1: It is an alternative hypothesis which means there is a trend present in the data. Here, the trend can be a positive trend as well as a negative trend. 
 
 If the test's p-value is less than a certain threshold (typical thresholds include 0.10, 0.05, and 0.01), there is statistically substantial evidence that a trend exists in the time series data.
 
