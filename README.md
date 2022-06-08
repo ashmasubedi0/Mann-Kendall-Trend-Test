@@ -70,11 +70,11 @@ Here is how to interpret the output of the test:
 * Tau: Kendall Tau.
 * s: Mann-Kendal’s score
 * var_s: Variance S
-* slope: Sen slope
+* slope: Sen slope (used to assess the magnitude of meteorological parameters, which refers to how much an increase or reduction occurs each year.)
 * intercept: Intercept of Kendall-Theil Robust Line
 
 
-Here, the test trend shows there is an increasing trend in the maximum temperature data with a p-value less than 0.05 which means our null hypothesis is rejected and our alternative hypothesis is accepted. That is, there is a significant positive change in the trend in the last 28 years. The slope is 0.16. 
+Here, the test trend shows there is an increasing trend in the maximum temperature data with a p-value less than 0.05 which means our null hypothesis is rejected and our alternative hypothesis is accepted. That is, there is a significant positive change in the trend in the last 28 years. The sen slope is 0.16 meaning that the maximum temperature has increased by 0.16 degree per year. 
 
 Using a similar code, the trend for minimum temperature and average temperature from 1992 to 2020 was also calculated. 
 
@@ -94,7 +94,7 @@ We can conclude that there is a substantial trend in this dataset based on the a
 
 ![](senslope_tavg.jpg)
 
-Here, the test trend shows there is an increasing trend in the average temperature data with a p-value less than 0.05. That is, there is a significant positive change in the trend in the last 28 years with a slope of 0.019. 
+Here, the test trend shows there is an increasing trend in the average temperature data with a p-value less than 0.05. That is, there is a significant positive change in the trend in the last 28 years with a sen slope of 0.019. 
 
 From testing all the three data sets (maximum temperature, minimum temperature, and average temperature), it can be said that the trend analysis reveals a positive trend (maximum temperature and average temperature) and a negative trend in minimum temperature and statistical significance. Because the estimated p-value is less than the alpha (significance threshold), the null hypothesis should be rejected and the alternative hypothesis accepted. 
 
